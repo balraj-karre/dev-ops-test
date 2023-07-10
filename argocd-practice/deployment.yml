@@ -6,7 +6,7 @@ metadata:
   name: currency-exchange
   namespace: argocd
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: currency-exchange
